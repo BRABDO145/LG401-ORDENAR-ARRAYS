@@ -1,4 +1,5 @@
 <?php
+
 function burbuja($array)
 {
     for($i=1;$i<count($array);$i++)
@@ -17,12 +18,15 @@ function burbuja($array)
 }
 $arrayA=array(10,30,40,20,50,5);
 echo "°°D<br>";
+
 for($i=0;$i<count($arrayA);$i++)
     echo $arrayA[$i]."\n";
 $arrayB=burbuja($arrayA);
 echo 
 "<br><br>Valores ordenados<br>";
+
 for($i=0;$i<count($arrayB);$i++)
     echo $arrayB[$i]."\n";
+    "<br>"
 ?>
    
